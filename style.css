@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Eurostile;
+    src: url(Eurostile.ttf);
+}
+
+body {
+    font-family: Eurostile, Monaco, monospace;
+    margin: 0;
+}
+
+.header, .footer {
+    background-color: #000000;
+}
+
+.top {
+    background-color: #00A551;
+}
+
+.mid {
+    background-color: #FFFFFF;
+}
+
+.bot {
+    background-color: #EF1A2D;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.emblem {
+    height: 96px;
+    width: 96px;
+}
+
+.drivers {
+    height: 480px;
+    width: 800px;
+}
+
+.products {
+    height: 400px;
+    width: 400px;
+}
+
+.links {
+    display: flex;
+    padding: 16px;
+}
+
+h1, p {
+    margin: 0;
+}
