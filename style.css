@@ -27,6 +27,15 @@ body {
 .container {
     width: 70%;
     margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.header .container {
+    padding-top: 16px;
+}
+
+.foot {
+    padding-bottom: 0px;
 }
 
 .emblem {
@@ -35,20 +44,130 @@ body {
 }
 
 .drivers {
-    height: 480px;
-    width: 800px;
+    height: 320px;
+    width: auto;
 }
 
 .products {
-    height: 400px;
-    width: 400px;
+    height: 240px;
+    width: 240px;
 }
+img {
+    border-radius: 24px;
+}
+
+h1, p, a {
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 24px;
+}
+
+/*This is css for the header part.*/
 
 .links {
     display: flex;
-    padding: 16px;
+    margin-left: -20px;
+    justify-content: space-between;
 }
 
-h1, p {
-    margin: 0;
+.left-links, .right-links {
+    display: flex;
+    align-items: center;
+}
+
+.right-links {
+    gap: 40px;
+}
+
+.name, .right-links a {
+    color: #04BFAD;
+    font-size: 32px;
+}
+
+.right-links a:hover {
+    color: #027373;
+}
+
+.name {
+    width: 380px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin-top: 120px;
+}
+
+.description h1 {
+    font-size: 72px;
+    margin-bottom: 48px;
+}
+
+.description p {
+    font-size: 32px;
+    color: #e5e7eb;
+}
+
+/*This is css for the top part.*/
+
+.top .container h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 60px 0;
+}
+
+.container-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    text-align: center;
+    gap: 16px;
+}
+
+/*This is css for mid part.*/
+
+.mid p {
+    color: #000000;
+    font-size: 64px;
+    text-align: center;
+}
+
+.mid .quote {
+    padding: 120px 0 60px 0;
+}
+
+.mid h1 {
+    color: #000000;
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: end;
+}
+
+/*This is css for bot part.*/
+.bot .container {
+    padding-top: 120px;
+}
+
+.newsletter-container {
+    display: flex;
 }
